@@ -193,7 +193,6 @@ body{
 .quadro_wrapper{
     width:60%;
     height: 190px;
-    background-color:red;
     margin:5% 0;
     background-image:url('/imagens/acobefore.png');
     background-size: cover;
