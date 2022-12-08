@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+        <title>MecSol</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="desktop">
+                <ul>
+                    <li><a href="#tabela">Tabela</a></li>
+                    <li><a href="#graph">Gráficos</a></li>
+                    <li><a href="#calculadora">Cálculadora</a></li>
+                </ul>
+            </div>
+            <div class="mobile_menu">
+                <div class="bar_tab"></div>
+                <div class="bar_tab" style="margin:10px 0;"></div>
+                <div class="bar_tab"></div>
+            </div>
+            <div class="mobile">
+                <div class="mobile_wrapper">
+                <ul>
+                <li><a href="#tabela">Tabela</a></li>
+                    <li><a href="#graph">Gráficos</a></li>
+                    <li><a href="#calculadora">Cálculadora</a></li>
+                </div>
+            </ul>
+            <div class="close"><p>X</p></div>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="esquerda">
+                 <h1>Trabalho semestral <br> Mecânica dos Sólidos</h1>
+                 <p>Este aplicativo tem como objetivo cumprir as atividades propostas na matéria de mecânica dos sólidos utilizando javascript,node.js,html e css</p>
+            </div>
+            <div class="direita">
+                <div class="quadro">
+                    <div class="wrapper">
+                        <div class="quadro_wrapper"></div>
+                        <h2 class="slider_text">Aço</h2>
+                        <div class="slider">
+                        <div class="bar" id="bar1"></div>
+                        <div class="bar" id="bar2"></div>
+                        <div class="bar" id="bar3"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tabela" id="tabela">
+            <div class="tabela_wrapper">
+                <div class="container">
+                <h2>Módulo de elasticidade(10^9N/m^2)</h2>
+                <p class="elastic">200</p>
+            </div>
+            <div class="container">
+                <h2>Tensão limite do escoamento</h2>
+                <p class="tension">350Mpa</p>
+            </div>
+            <div class="graph" id="graph"></div>
+            </div>
+        </section>
+        <section class="calculadora" id="calculadora">
+            <h2>Calculadora</h2>
+            <div class="calculadora_wrapper">
+                <div class="data">
+                    <input type="text" class="deformation_elastic" placeholder="Deformação:">
+                    <input type="text" class="deformation" placeholder="Comprimento inicial:">
+                    <input type="button" class="button" value="Calcular">
+                </div>
+                <div class="data_answer">
+                    <div class="grid_container">
+                        <div class="grade" id="grade_1">
+                            <h3>Vidro</h3>
+                        </div>
+                        <div class="grade_def" style="background-color:rgb(23, 24, 36);border-right: 5px solid rgb(14, 15, 26);">
+                            <h3>Deformação:</h3>
+                        </div>
+                        <div class="grade" id="grade_2" style="background-color:rgb(23, 24, 36);">
+                            <h3>Comprimento inicial:</h3>
+                        </div>
+                    </div>
+                    <div class="slider_box">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
