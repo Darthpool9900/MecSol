@@ -32,8 +32,8 @@ function sliderClick() {
         switch (i) {
             case 0:
                 slider[i].addEventListener('click',()=>{
-                        frame.style.backgroundImage = "url('/imagens/acobefore.png')";
-                        frame_bg.style.backgroundImage = "url('/imagens/aco.png')";
+                        frame.style.backgroundImage = "url('./imagens/acobefore.png')";
+                        frame_bg.style.backgroundImage = "url('./imagens/aco.png')";
                         slider_text.innerHTML = "Aço";
                         elastic.innerHTML = material[0].elastic;
                         tension.innerHTML = material[0].tension;
@@ -56,8 +56,8 @@ function sliderClick() {
                 break;
             case 1:
                 slider[i].addEventListener('click',()=>{
-                    frame.style.backgroundImage = "url('/imagens/vidrobefore.png')";
-                    frame_bg.style.backgroundImage = "url('/imagens/vidro_bg.png')";
+                    frame.style.backgroundImage = "url('./imagens/vidrobefore.png')";
+                    frame_bg.style.backgroundImage = "url('./imagens/vidro_bg.png')";
                     slider_text.innerHTML = "Vidro";
                     elastic.innerHTML = material[1].elastic;
                     tension.innerHTML = material[1].tension;
@@ -79,8 +79,8 @@ function sliderClick() {
                 break;
             case 2:
                 slider[i].addEventListener('click',()=>{
-                    frame.style.backgroundImage = "url('/imagens/concretbefore.png')";
-                    frame_bg.style.backgroundImage = "url('/imagens/concretbg.png')";
+                    frame.style.backgroundImage = "url('./imagens/concretbefore.png')";
+                    frame_bg.style.backgroundImage = "url('./imagens/concretbg.png')";
                     slider_text.innerHTML = "Concreto";
                     elastic.innerHTML = material[2].elastic;
                     tension.innerHTML = material[2].tension;
