@@ -458,3 +458,8 @@ body{
         transform: translate(-50%,-50%);
     }
 }
+@media screen and (max-width:480px){
+    .grade_def h3,.grade h3{
+        font-size:24px;
+    }
+}
