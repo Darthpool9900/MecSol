@@ -164,7 +164,7 @@ body{
     position: relative;
     width:50%;
     height:600px;
-    background-image: url('/imagens/aco.png');
+    background-image: url('../imagens/aco.png');
     background-repeat:no-repeat;
     background-size: cover;
     border-radius:0.5rem;
@@ -194,7 +194,7 @@ body{
     width:60%;
     height: 190px;
     margin:5% 0;
-    background-image:url('/imagens/acobefore.png');
+    background-image:url('../imagens/acobefore.png');
     background-size: cover;
     transition: 0.5s;
 }
