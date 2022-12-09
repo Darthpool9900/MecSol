@@ -111,7 +111,6 @@ calc.addEventListener('click',()=>{
     const coef_e = document.querySelector('.deformation_elastic').value;
     var def_info  = document.querySelector('.grade_def h3');
     var material_conf = document.querySelector('#grade_1 h3').innerText;
-    if(coef_e!=NULL){
     for(let i=0; i<material.length; i++){
         if(material[i].material==material_conf){
         if(coef_e<=material[i].elastic){
@@ -121,7 +120,6 @@ calc.addEventListener('click',()=>{
         }
     }
     }
-}
 });
 
 calc.addEventListener('click',()=>{
